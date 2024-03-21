@@ -1,0 +1,81 @@
+body{font-family: 'Overpass', sans-serif; font-weight: 300;}
+
+p{padding: 0; margin: 0;}
+h1 , h2, h3 {padding: 0; margin: 0;}
+
+.header_wrapper {padding: 0px; margin: 0px; position: relative;} 
+.header1.sticky {position: fixed; top: 0; left: 0; right: 0; margin: 0 auto; z-index: 2; }
+.left_header {float: left; max-width: 42%; width: 100%;}
+.center_header {float: left; max-width: 24%;width: 100%; }
+.right_header {float: right; max-width: 34%;width: 100%; padding-top: 3px;}
+.header1 {padding: 10px 0;  position: absolute; top: 0; left: 0; right:0; background-color: rgba(12, 10, 12, 0.5); }
+.menu_top {list-style: none; display: flex;font-weight: 600; margin: 0px; padding: 0;}
+.menu_top li {padding: 10% 49px 0 0px; margin: 0px;}
+.menu_top li  a {text-decoration: none; color: #fff;}
+.menu_top li  a:hover {text-decoration: underline; color: green;}
+
+.header_center{color: #fff; padding: 0; margin: 0px; position: absolute; top: 50%; left: 0;
+     right: 0; transform: translateY(-50%);}
+.best {background-color: #0fa654;margin-bottom: 20px; color: #fff; font-weight: 600; border: none;font-weight: 600; border-radius: 20px;padding: 5px 20px;}
+.header_center h1 {font-weight: 800; margin: 0px; padding-top: 10px;}
+.header_right {position: absolute; right: 20%; top: 60%; }
+
+.header_last {position:absolute; bottom: 5%;  left: 40%;color: #fff; }
+.header_last a {text-decoration: none; color: #fff;}
+.header_last i {font-size: 30px; padding: 0px 30px;}
+.header_last  span {font-size: 30px;}
+
+
+.Delicious {  position: relative;background-color: #161414; color: #fff; text-align: center; padding: 50px 0px 11% 0px;}
+.Delicious h1 {margin: 0px; padding: 25px;} 
+.Delicious p {line-height: 30px; font-weight: 400; margin: 0px;padding-bottom: 25px;}
+.Delicious i {font-weight: 600; border-bottom: 2px solid #0fa654;  }
+.img_box1 { padding: 30px 0 0 50px; }
+.img_box2 { padding: 40% 0px;margin-right: 10%;position: absolute;top: -20%;right: 31%;}
+.img_box3 { padding: 30px 0px; position: absolute; margin-left: -8%;}
+
+.services {padding: 0px 0px; margin: 0;}
+.service_1  {background-color: #eeeeee;padding: 50px 0px;margin: 0;}
+.service_3  {background-color: #eeeeee;padding: 50px 0px; margin: 0;}
+.service_2  {background-color: #fff;padding: 50px 0px; margin: 0;}
+.services span {color: #0fa654;  }
+.services h1 {font-weight: 800;padding: 20px 0px; margin: 0;}
+.services p {line-height: 30px ; margin: 0px ;padding: 20px 0px 50px 0px;}
+.color i { font-weight: 700;  margin: 0px ; border-bottom: 2px solid #0fa654; }
+.img_1 {position: relative; max-width: 100%;}
+.img_sm {position: absolute; bottom: 0%; right: 1%;max-width: 100%;}
+.arrow { text-align: center; font-weight: 800; font-size: 30px; padding: 20px 0;margin: 0; }
+.bi-chevron-left {padding: 0px 25px; margin: 0;}
+.bi-chevron-right {padding: 0px 25px;margin: 0;}
+
+.success {padding: 50px 0px; color: #fff; background-image:url("../images/bg.png"); background-size: cover;}
+.success h1 {padding: 20px 0; margin: 0;}
+.success-btn { float: right; }
+.text_box {padding-top: 20%;  }
+.text_box i {color: #0fa654; font-size: 30px; padding: 0; margin: 0;}
+.text_box h4 { padding: 10px 0; margin: 0;  }
+.text_box p {padding: 10px 0; margin: 0;}
+.green_line {border-bottom: 5px solid #0fa654; max-width: 80px; padding: 10px 0; margin: 0;}
+
+
+.form_wrapper {background-image: url("../images/form_bg.png"); background-size: cover;
+   background-color: #161414; padding: 50px 0;border-bottom: 2px solid gray;}
+.form_wrapper h1 {text-align: center; color: #fff; }
+.form_box {padding: 20px 10%;}
+.form1 input{width: 100%; padding: 15px 0; margin: 0; background-color: transparent; border-radius: none; 
+   outline: 0; color: #fff; border: 0 ; border-bottom: 2px solid gray;}
+.form1 textarea {width: 100%; padding: 15px 0; margin: 0; background-color: transparent; 
+   border-radius: none; outline: 0; color: #fff; border: 0 ; border-bottom: 2px solid gray;}
+.submit i { font-weight: 700;  margin: 0px ; border-bottom: 2px solid #0fa654;color: #fff;  }
+.submit {text-align: center; padding: 30px 0; margin: 0 ;}
+
+.footer {background-color: #161414; padding: 30px 0; }
+.footer span {color: #0fa654; font-weight: 500;text-transform: uppercase;}
+.footer_menu {list-style: none; padding: 0; margin: 0;}
+.footer_menu  li { padding: 5px 0; margin: 0; color: #fff;} 
+.footer_menu  li a {text-decoration: none; color: #fff;}
+.footer_menu  li a:hover{text-decoration: underline; color: #0fa654;}
+.footer_menu  li i {padding: 0 5px; margin: 0;}
+.line {border-bottom: 2px solid gray; padding: 20px 0;}
+.last {color: #fff; padding: 20px 0; margin: 0; }
+.last p {padding: 0; margin: 0;}
